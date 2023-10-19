@@ -1,0 +1,469 @@
+{
+  "encrypted": false,
+  "folders": [
+    {
+      "id": "92019582-0d49-4b3c-9187-b085010e912f",
+      "name": "SOS LOCAÇÕES"
+    }
+  ],
+  "items": [
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T13:12:36.966Z",
+      "creationDate": "2023-09-13T11:38:24.556Z",
+      "deletedDate": null,
+      "id": "08ab7465-335e-4935-893c-b07c00bfd341",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "Certificados Digitais",
+      "notes": "MULTMAQ: 123456\nASSIS LOCAÇÕES: 123456\n\nSOS LOCACOES: focus9878\nFUSION COPIADORAS: focus9878",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "briefcase",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": null,
+        "password": null,
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T13:12:45.793Z",
+      "creationDate": "2023-09-28T13:06:17.963Z",
+      "deletedDate": null,
+      "id": "64f5ec8f-64f7-4685-ad30-b08b00d7f707",
+      "organizationId": null,
+      "folderId": null,
+      "type": 1,
+      "reprompt": 0,
+      "name": "Comunidade Simpress",
+      "notes": "Senha de acesso a comunidade simpress:\nhttps://comunidade.simpress.com.br/\n\nSenha criptografada Nivel A+++",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "lock",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "04635737000131",
+        "password": "B$wj*uXW&@3S9xxpFfcBqMrHEEtESZpQdL&s$sMjR@r58UbbbZ",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T13:12:51.973Z",
+      "creationDate": "2023-09-18T13:24:57.140Z",
+      "deletedDate": null,
+      "id": "118af76d-d3ac-441e-a058-b08100dd167f",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "Documentos André",
+      "notes": "RG - 32504787 (SSP)\nCPF - 28293361867\nCNH - 02197310280",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "card",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": null,
+        "password": null,
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T13:13:06.656Z",
+      "creationDate": "2023-09-12T18:28:26.373Z",
+      "deletedDate": null,
+      "id": "39dda5ce-513c-4a19-bab0-b07b01307183",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "Email Financeiro",
+      "notes": "Senha criptografada nivel A+++",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "mail",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "financeiro.copiadoras@outlook.com",
+        "password": "HFOzJoqcQgoFMUpRzcKPSyqubFW5MXQwKPrghWjy2Xah3",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T13:13:15.846Z",
+      "creationDate": "2023-09-12T17:07:04.643Z",
+      "deletedDate": null,
+      "id": "79808d70-e8a4-4bbd-bec6-b07b011a18be",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "Email Fusion",
+      "notes": "Senha criptografada nivel A+++",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "mail",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "fusioncopiadora@hotmail.com",
+        "password": "k0hy@kW~Q{MPIk_jZ)c;'KwQje5byM3xNXtUN]RwGUZ&",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T13:13:09.980Z",
+      "creationDate": "2023-09-12T17:01:41.566Z",
+      "deletedDate": null,
+      "id": "819b5601-588f-4f32-882d-b07b01189e26",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "Email LocaWeb",
+      "notes": "Link de acesso a Plataforma do Email:\nhttps://webmail-seguro.com.br/\n",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "mail",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "suporte@soslocacoes.com",
+        "password": "4T5vHLr5YND5entUWGAE,Ml)T&",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T13:13:20.063Z",
+      "creationDate": "2023-09-12T19:53:31.736Z",
+      "deletedDate": null,
+      "id": "23860b7a-9af0-4ddb-aaf7-b07b0147d05f",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "Email Pedro Google",
+      "notes": "Senha criptografada nivel A+++",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "mail",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "pedro.analista.fusion@gmail.com",
+        "password": "Ey419B2kBrReQrahWZbPtNGlhwhvZmsDiZve0q4Qj4oX5kc2nj",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-10-09T11:23:41.036Z",
+      "creationDate": "2023-10-09T11:23:03.443Z",
+      "deletedDate": null,
+      "id": "6101e1a6-0d71-4086-bee5-b09600bb9bdb",
+      "organizationId": null,
+      "folderId": null,
+      "type": 1,
+      "reprompt": 0,
+      "name": "FSA Simpress",
+      "notes": "Senha de acesso a plataforma FSA Simpress.\n\nhttps://fsa.simpress.com.br",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "lock",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "parceiro.sos",
+        "password": "Simp2023*",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T13:13:58.216Z",
+      "creationDate": "2023-09-19T16:22:02.650Z",
+      "deletedDate": null,
+      "id": "85a3b363-868d-49e0-830e-b082010dba3d",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "Fusion.Copiadoras",
+      "notes": "Em processo de verificação",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "help",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "Fusion.Copiadoras",
+        "password": "&m9^WyqdbGq$Jjk9S5hjAiA4%5fbHVAq^yzNoDDSE#Utr^^@djvpEyGqNKghL$t3",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T20:24:11.943Z",
+      "creationDate": "2023-09-28T20:24:11.943Z",
+      "deletedDate": null,
+      "id": "f50d1cb5-dc80-4205-a3c7-b08b01503cea",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "KAP COUNTER",
+      "notes": "Senha ainda não sofreu alteração.\nSem criptografia NIVEL A+++\n\nhttps://counter.kapsistemas.com.br/",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "print",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "suporte@soslocacoesdeimpressoras.com.br",
+        "password": "10751075",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": [
+        {
+          "lastUsedDate": "2023-09-28T12:05:44.554Z",
+          "password": "Fusion2#"
+        }
+      ],
+      "revisionDate": "2023-09-28T13:14:06.256Z",
+      "creationDate": "2023-09-18T13:29:55.486Z",
+      "deletedDate": null,
+      "id": "4372bef1-7350-4e69-aa65-b08100de7419",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "LICITAR DIGITAL",
+      "notes": "Senha Criptografada Nivel A+++",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "cart",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "28293361867",
+        "password": "Zep6#ZsSDDR4&8a%4wcw4JqnS899xXE^rFBx*NFhn@A$H3azLZ",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T13:14:20.580Z",
+      "creationDate": "2023-09-12T18:39:08.706Z",
+      "deletedDate": null,
+      "id": "86727abb-0275-41dc-9c72-b07b01336240",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "LocaWeb",
+      "notes": "Dados de login para plataforma da LocaWeb.\nSenha Criptografada Nivel A+++",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "mail",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "copfusion",
+        "password": "Ny5BSv5rnra95uRpoFgsXIolDrLxd4xjU77GalNmWWLuT",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-10-03T16:21:37.170Z",
+      "creationDate": "2023-10-03T16:21:37.170Z",
+      "deletedDate": null,
+      "id": "eda03668-b500-4456-8a5a-b090010d9c84",
+      "organizationId": null,
+      "folderId": null,
+      "type": 1,
+      "reprompt": 0,
+      "name": "Roteador Vivo",
+      "notes": "FAIXA DO IP:\n192.168.15.X\n\n",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "wifi",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "admin",
+        "password": "nmf5mrmm",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T17:20:52.123Z",
+      "creationDate": "2023-09-28T17:14:25.620Z",
+      "deletedDate": null,
+      "id": "892a8608-4bb5-44e4-b34a-b08b011c1d89",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "Sebrae AMEI",
+      "notes": "Dados para login na plataforma de autenticação do SEBRAE.\nhttps://amei.sebrae.com.br/\n",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "lock",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "28293361867",
+        "password": "A$P#KqkSyANDRp484ovLqvGWEzmpK*vkHapw!&xt22DC4!N^F$",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": [
+        {
+          "lastUsedDate": "2023-10-02T19:12:27.335Z",
+          "password": "fusion6555copiadoras"
+        }
+      ],
+      "revisionDate": "2023-10-02T20:49:51.450Z",
+      "creationDate": "2023-10-02T16:13:24.690Z",
+      "deletedDate": null,
+      "id": "c1243231-4896-4bdc-a814-b08f010b5b6a",
+      "organizationId": null,
+      "folderId": null,
+      "type": 1,
+      "reprompt": 0,
+      "name": "Servidor FTP",
+      "notes": "Certificado de Credencial ON\nTLS/SSL Comunicação Segura\n\nIP do Servidor: 192.168.15.199\nPorta Padrão: 21\nPara acessar o servidor, sempre usar o procolo TLS.",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "cloud",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "ftpserver",
+        "password": "admin6555admin",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "passwordHistory": null,
+      "revisionDate": "2023-09-28T13:14:26.323Z",
+      "creationDate": "2023-09-18T11:43:29.646Z",
+      "deletedDate": null,
+      "id": "75653ac8-15eb-44f6-9408-b08100c138b3",
+      "organizationId": null,
+      "folderId": "92019582-0d49-4b3c-9187-b085010e912f",
+      "type": 1,
+      "reprompt": 0,
+      "name": "Sinal Sistema",
+      "notes": "Senha para acesso ao sistema da sinal no login do andré.",
+      "favorite": false,
+      "fields": [
+        {
+          "name": "system",
+          "value": "print",
+          "type": 0,
+          "linkedId": null
+        }
+      ],
+      "login": {
+        "username": "ANDRE",
+        "password": "147258",
+        "totp": null
+      },
+      "collectionIds": null
+    }
+  ]
+}

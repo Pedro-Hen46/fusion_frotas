@@ -1,0 +1,22 @@
+{
+    "users": [
+    {
+      "id": 1,
+      "name": "Leticia Vidal",
+      "login": "leticia@soslocacoes.com",
+      "pass_": "123"
+    },
+    {
+        "id": 2,
+        "name": "Gustavo Henares",
+        "login": "gustavo@soslocacoes.com",
+        "pass_": "123"
+    },
+    {
+        "id": 3,
+        "name": "Pedro Henrique",
+        "login": "pedro@soslocacoes.com",
+        "pass_": "123"
+    }
+  ]
+}
