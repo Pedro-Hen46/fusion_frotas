@@ -1,8 +1,12 @@
 import styled from "styled-components";
-
+import axios from "axios";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
-export default function Vehicle({ name, pricing, logo }) {
+export default function Vehicle({ data, price }) {
+  console.log(data);
+
+  useEffect(() => {}, []);
   return (
     <ContainerPage>
       <Link to={`/password/`}>
@@ -11,9 +15,9 @@ export default function Vehicle({ name, pricing, logo }) {
             <ion-icon name="car" className="ion"></ion-icon>
           </div>
           <div>
-            <h3>{name}</h3>
+            <h3>{data.name}</h3>
             <span>VALOR TOTAL GASTO NO MÊS</span>
-            <h2>R$ {pricing}</h2>
+            <h2>R$ {price}</h2>
             <span> mais informações</span>
           </div>
         </ContainerVehicle>

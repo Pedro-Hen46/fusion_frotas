@@ -8,18 +8,21 @@ import Header from "./Header";
 import Vehicle from "../../utils/Vehicle";
 import FooterIp from "../../utils/FooterIp";
 
-import vaultsBase from "../../config/assets/passBase.json";
-
 import { ToastContainer, toast } from "react-toastify";
 import ValuationMonth from "../../utils/ValuationMonth";
+import axios from "axios";
+
+import { TailSpin } from "react-loader-spinner";
 
 export default function UserLogged() {
+  const SERVER_URL = "http://192.168.15.195:3002";
   const [clientIPStorage, setClientIPStorage] = useState("");
   const [clientData, setClientData] = useState("");
-  const [vaults, setVaults] = useState(false);
+  const [vaults, setVaults] = useState([]);
   const [search, setSearch] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const [isLogged, _] = useState(sessionStorage.getItem("asLogged"));
+  const [isLogged, setIsLogged] = useState(sessionStorage.getItem("asLogged"));
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -31,7 +34,14 @@ export default function UserLogged() {
 
       setClientIPStorage(JSON.parse(localStorage.getItem("@clientIP")));
       setClientData(JSON.parse(localStorage.getItem("@userData")));
-      setVaults(vaultsBase.items);
+
+      const promise = axios.get(`${SERVER_URL}/vehicles`);
+      setLoading(true);
+      promise.then((res) => {
+        setVaults(res.data.vehicles); //Adicionando os dados do veiculo dentro da variavel que manda para outros componentes.
+        setLoading(false);
+      });
+      promise.catch((err) => console.log(err));
 
       // toast.success(
       //   "Atenção se atente a data prevista para alteração das senhas!",
@@ -69,10 +79,24 @@ export default function UserLogged() {
           <br /> <br />
           <span>VEÍCULOS DA EMPRESA:</span>
           <ContainerPasswordsCard>
-            {!vaults ? (
-              <h1>Carregando...</h1>
+            {vaults.length === 0 ? (
+              <ContainerLoading>
+                <TailSpin
+                  height="100"
+                  width="100"
+                  color="red"
+                  ariaLabel="tail-spin-loading"
+                  radius="2"
+                  wrapperStyle={{}}
+                  wrapperClass=""
+                  visible={true}
+                />
+                <h2>CARREGANDO, AGUARDE...</h2>
+              </ContainerLoading>
             ) : (
-              <Vehicle name="CARGO 125 FDP 8768" pricing="246,98" />
+              vaults.map((item, index) => {
+                return <Vehicle price="400" data={item} key={index} />;
+              })
             )}
           </ContainerPasswordsCard>
           <FooterIp ip={clientIPStorage} />
@@ -81,6 +105,14 @@ export default function UserLogged() {
     </>
   );
 }
+const ContainerLoading = styled.div`
+  margin-top: 30px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+`;
 const ContainerPasswordsCard = styled.div`
   width: 100%;
   display: flex;
